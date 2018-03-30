@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/imscmservice:vendor/bin/imscmservice \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/imsdatadaemon:vendor/bin/imsdatadaemon \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/imsqmidaemon:vendor/bin/imsqmidaemon \
-    vendor/motorola/msm8916-common/proprietary/vendor/bin/imsrcsd:vendor/bin/imsrcsd \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/ims_rtp_daemon:vendor/bin/ims_rtp_daemon \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-dplmedia.so:vendor/lib/lib-dplmedia.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:vendor/lib/com.qualcomm.qti.imscmservice@1.0.so \
