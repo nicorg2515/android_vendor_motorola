@@ -17,6 +17,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:vendor/bin/hw/android.hardware.drm@1.0-service.widevine \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/adsprpcd:vendor/bin/adsprpcd \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/irsc_util:vendor/bin/irsc_util \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/netmgrd:vendor/bin/netmgrd \
@@ -41,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/data/netmgr_config.xml:vendor/etc/data/netmgr_config.xml \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/data/qmi_config.xml:vendor/etc/data/qmi_config.xml \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
+    vendor/motorola/msm8916-common/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/com.qti.location.sdk.xml:vendor/etc/permissions/com.qti.location.sdk.xml \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/izat.xt.srv.xml:vendor/etc/permissions/izat.xt.srv.xml \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/qcnvitems.xml:vendor/etc/permissions/qcnvitems.xml \
@@ -205,6 +207,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libthermalioctl.so:vendor/lib/libthermalioctl.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libtime_genoff.so:vendor/lib/libtime_genoff.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libvoice-svc.so:vendor/lib/libvoice-svc.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libwvhidl.so:vendor/lib/libwvhidl.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libxml.so:vendor/lib/libxml.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:vendor/lib/vendor.qti.gnss@1.0_vendor.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:vendor/lib/mediadrm/libwvdrmengine.so \
