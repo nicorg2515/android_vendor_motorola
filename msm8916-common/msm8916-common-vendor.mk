@@ -17,7 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/adsprpcd:vendor/bin/adsprpcd \
-    vendor/motorola/msm8916-common/proprietary/vendor/bin/btnvtool:vendor/bin/btnvtool \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/hci_qcomm_init:vendor/bin/hci_qcomm_init \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/irsc_util:vendor/bin/irsc_util \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/netmgrd:vendor/bin/netmgrd \
