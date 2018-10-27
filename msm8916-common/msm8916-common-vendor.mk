@@ -166,7 +166,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libmmQSM.so:vendor/lib/libmmQSM.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libmmosal_proprietary.so:vendor/lib/libmmosal_proprietary.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libnetmgr.so:vendor/lib/libnetmgr.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/liboemcrypto.so:vendor/lib/liboemcrypto.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libprotobuf-cpp-haxx.so:vendor/lib/libprotobuf-cpp-haxx.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libperipheral_client.so:vendor/lib/libperipheral_client.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libqcci_legacy.so:vendor/lib/libqcci_legacy.so \
