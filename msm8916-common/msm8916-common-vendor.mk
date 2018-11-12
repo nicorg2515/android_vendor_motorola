@@ -78,6 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:vendor/lib/egl/libq3dtools_adreno.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:vendor/lib/egl/libq3dtools_esx.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/hw/copybit.msm8916.so:vendor/lib/hw/copybit.msm8916.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libApeSwDec.so:vendor/lib/libApeSwDec.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libFlacSwDec.so:vendor/lib/libFlacSwDec.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libMpeg4SwEncoder.so:vendor/lib/libMpeg4SwEncoder.so \
@@ -100,6 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libFileMux.so:vendor/lib/libFileMux.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libI420colorconvert.so:vendor/lib/libI420colorconvert.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libmmosal.so:vendor/lib/libmmosal.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/liboemcrypto.so:vendor/lib/liboemcrypto.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libOmxAacDec.so:vendor/lib/libOmxAacDec.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libOmxEvrcDec.so:vendor/lib/libOmxEvrcDec.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:vendor/lib/libOmxQcelp13Dec.so \
