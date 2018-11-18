@@ -125,7 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:vendor/lib/libmmcamera2_imglib_modules.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libc2d30-a5xx.so:vendor/lib/libc2d30-a5xx.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libc2d30-a4xx.so:vendor/lib/libc2d30-a4xx.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libfacenet-32.so:vendor/lib/libfacenet-32.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libcneapiclient.so:vendor/lib/libcneapiclient.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libconfigdb.so:vendor/lib/libconfigdb.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libdataitems.so:vendor/lib/libdataitems.so \
@@ -166,7 +165,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libmmQSM.so:vendor/lib/libmmQSM.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libmmosal_proprietary.so:vendor/lib/libmmosal_proprietary.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libnetmgr.so:vendor/lib/libnetmgr.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libprotobuf-cpp-haxx.so:vendor/lib/libprotobuf-cpp-haxx.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libprotobuf-cpp-shit.so:vendor/lib/libprotobuf-cpp-shit.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libperipheral_client.so:vendor/lib/libperipheral_client.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libqcci_legacy.so:vendor/lib/libqcci_legacy.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libquipc_os_api.so:vendor/lib/libquipc_os_api.so \
