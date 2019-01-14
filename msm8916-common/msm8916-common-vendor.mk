@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:vendor/bin/hw/android.hardware.drm@1.0-service.widevine \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/adsprpcd:vendor/bin/adsprpcd \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/irsc_util:vendor/bin/irsc_util \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/mm-pp-daemon:vendor/bin/mm-pp-daemon \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/netmgrd:vendor/bin/netmgrd \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/pm-service:vendor/bin/pm-service \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/qmi_motext_hook:vendor/bin/qmi_motext_hook \
@@ -135,6 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libconfigdb.so:vendor/lib/libconfigdb.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libdataitems.so:vendor/lib/libdataitems.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libdiag.so:vendor/lib/libdiag.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libdisp-aba.so:vendor/lib/libdisp-aba.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libdrmfs.so:vendor/lib/libdrmfs.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libdrmtime.so:vendor/lib/libdrmtime.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libdrplugin_client.so:vendor/lib/libdrplugin_client.so \
@@ -164,6 +166,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/librilutils.so:vendor/lib/librilutils.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/motcamera.device@1.0-impl.so:vendor/lib/motcamera.device@1.0-impl.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libmdmdetect.so:vendor/lib/libmdmdetect.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libmm-abl-oem.so:vendor/lib/libmm-abl-oem.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libmm-abl.so:vendor/lib/libmm-abl.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libmm-color-convertor.so:vendor/lib/libmm-color-convertor.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libmm-disp-apis.so:vendor/lib/libmm-disp-apis.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libmm-hdcpmgr.so:vendor/lib/libmm-hdcpmgr.so \
