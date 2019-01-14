@@ -129,7 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libbtnv.so:vendor/lib/libbtnv.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libc2d30-a3xx.so:vendor/lib/libc2d30-a3xx.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libc2d30_bltlib.so:vendor/lib/libc2d30_bltlib.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:vendor/lib/libmmcamera2_imglib_modules.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libc2d30-a5xx.so:vendor/lib/libc2d30-a5xx.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libc2d30-a4xx.so:vendor/lib/libc2d30-a4xx.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libcneapiclient.so:vendor/lib/libcneapiclient.so \
@@ -237,6 +236,5 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     qcnvitems \
     qcrilhook
-
 
 

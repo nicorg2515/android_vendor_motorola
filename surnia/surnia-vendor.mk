@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera2_cpp_module.so:vendor/lib/libmmcamera2_cpp_module.so \
     vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera2_iface_modules.so:vendor/lib/libmmcamera2_iface_modules.so \
+    vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:vendor/lib/libmmcamera2_imglib_modules.so \
     vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera2_isp_modules.so:vendor/lib/libmmcamera2_isp_modules.so \
     vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera2_is.so:vendor/lib/libmmcamera2_is.so \
     vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:vendor/lib/libmmcamera2_pproc_modules.so \
@@ -70,4 +71,3 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/surnia/proprietary/vendor/lib/liboemcamera.so:vendor/lib/liboemcamera.so \
     vendor/motorola/surnia/proprietary/vendor/lib/libqomx_jpegdec.so:vendor/lib/libqomx_jpegdec.so \
     vendor/motorola/surnia/proprietary/vendor/lib/libqomx_jpegenc.so:vendor/lib/libqomx_jpegenc.so
-
