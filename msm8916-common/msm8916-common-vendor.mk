@@ -22,10 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/adsprpcd:vendor/bin/adsprpcd \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/irsc_util:vendor/bin/irsc_util \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/mm-pp-daemon:vendor/bin/mm-pp-daemon \
-    vendor/motorola/msm8916-common/proprietary/vendor/bin/netmgrd:vendor/bin/netmgrd \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/pm-service:vendor/bin/pm-service \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/pm-proxy:vendor/bin/pm-proxy \
-    vendor/motorola/msm8916-common/proprietary/vendor/bin/qmi_motext_hook:vendor/bin/qmi_motext_hook \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/qmuxd:vendor/bin/qmuxd \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/qseecomd:vendor/bin/qseecomd \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/radish:vendor/bin/radish \
@@ -41,9 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/framework/com.qti.location.sdk.jar:vendor/framework/com.qti.location.sdk.jar \
     vendor/motorola/msm8916-common/proprietary/vendor/framework/izat.xt.srv.jar:vendor/framework/izat.xt.srv.jar \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/xtra_root_cert.pem:vendor/etc/xtra_root_cert.pem \
-    vendor/motorola/msm8916-common/proprietary/vendor/etc/data/dsi_config.xml:vendor/etc/data/dsi_config.xml \
-    vendor/motorola/msm8916-common/proprietary/vendor/etc/data/netmgr_config.xml:vendor/etc/data/netmgr_config.xml \
-    vendor/motorola/msm8916-common/proprietary/vendor/etc/data/qmi_config.xml:vendor/etc/data/qmi_config.xml \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/com.qti.location.sdk.xml:vendor/etc/permissions/com.qti.location.sdk.xml \
@@ -113,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libOpenCL.so:vendor/lib/libOpenCL.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libQSEEComAPI.so:vendor/lib/libQSEEComAPI.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libRSDriver_adreno.so:vendor/lib/libRSDriver_adreno.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libSubSystemShutdown.so:vendor/lib/libSubSystemShutdown.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libTimeService.so:vendor/lib/libTimeService.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libacdb-fts.so:vendor/lib/libacdb-fts.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libloc_api_v02.so:vendor/lib/libloc_api_v02.so \
@@ -161,10 +155,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libloc_ds_api.so:vendor/lib/libloc_ds_api.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libloc_externalDr.so:vendor/lib/libloc_externalDr.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/liblowi_wifihal.so:vendor/lib/liblowi_wifihal.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/liblqe.so:vendor/lib/liblqe.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libhdr_tm.so:vendor/lib/libhdr_tm.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libomx-dts.so:vendor/lib/libomx-dts.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/librilutils.so:vendor/lib/librilutils.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/motcamera.device@1.0-impl.so:vendor/lib/motcamera.device@1.0-impl.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libmdmdetect.so:vendor/lib/libmdmdetect.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libmm-abl-oem.so:vendor/lib/libmm-abl-oem.so \
@@ -182,7 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libquipc_os_api.so:vendor/lib/libquipc_os_api.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libqct_resampler.so:vendor/lib/libqct_resampler.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libqdi.so:vendor/lib/libqdi.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libqdp.so:vendor/lib/libqdp.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libqmi.so:vendor/lib/libqmi.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libqmi_cci.so:vendor/lib/libqmi_cci.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libqmi_client_helper.so:vendor/lib/libqmi_client_helper.so \
@@ -191,23 +182,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libqmi_csi.so:vendor/lib/libqmi_csi.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libqmi_encdec.so:vendor/lib/libqmi_encdec.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libqmiservices.so:vendor/lib/libqmiservices.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:vendor/lib/libril-qc-ltedirectdisc.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libril-qc-qmi-1.so:vendor/lib/libril-qc-qmi-1.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libril-qc-radioconfig.so:vendor/lib/libril-qc-radioconfig.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:vendor/lib/libril-qcril-hook-oem.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/librilqmiservices.so:vendor/lib/librilqmiservices.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/librpmb.so:vendor/lib/librpmb.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/librs_adreno.so:vendor/lib/librs_adreno.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/librs_adreno_sha1.so:vendor/lib/librs_adreno_sha1.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libsc-a3xx.so:vendor/lib/libsc-a3xx.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libscale.so:vendor/lib/libscale.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libsettings.so:vendor/lib/libsettings.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libsmemlog.so:vendor/lib/libsmemlog.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libslimclient.so:vendor/lib/libslimclient.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libssd.so:vendor/lib/libssd.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libstlport.so:vendor/lib/libstlport.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libsubsystem_control.so:vendor/lib/libsubsystem_control.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libsystem_health_mon.so:vendor/lib/libsystem_health_mon.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libthermalclient.so:vendor/lib/libthermalclient.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libthermalioctl.so:vendor/lib/libthermalioctl.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libtime_genoff.so:vendor/lib/libtime_genoff.so \
@@ -227,14 +210,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:vendor/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so:vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libadropbox.so:vendor/lib/libadropbox.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/liblocationservice_jni.so:vendor/lib/liblocationservice_jni.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libmdmcutback.so:vendor/lib/libmdmcutback.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libmot_sensorlistener.so:vendor/lib/libmot_sensorlistener.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libmotext_inf.so:vendor/lib/libmotext_inf.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/libqmimotext.so:vendor/lib/libqmimotext.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:vendor/lib/vendor.qti.gnss@1.0.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/qcril.db:vendor/qcril.db
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:vendor/lib/vendor.qti.gnss@1.0.so
 
 PRODUCT_PACKAGES += \
     TimeService \
@@ -242,4 +220,39 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook
 
+# RIL
+PRODUCT_COPY_FILES += \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
+    vendor/motorola/msm8916-common/proprietary/vendor/bin/qmi_motext_hook:$(TARGET_COPY_OUT_VENDOR)/bin/qmi_motext_hook \
+    vendor/motorola/msm8916-common/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
+    vendor/motorola/msm8916-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
+    vendor/motorola/msm8916-common/proprietary/vendor/etc/data/qmi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/qmi_config.xml \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libadropbox.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadropbox.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblqe.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libmdmcutback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmcutback.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libmotext_inf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotext_inf.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libqmimotext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmimotext.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-ltedirectdisc.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-qmi-1.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-radioconfig.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilqmiservices.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilutils.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsettings.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubsystem_control.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libSubSystemShutdown.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSubSystemShutdown.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystem_health_mon.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.am@1.0_vendor.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim@1.0_vendor.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
+PRODUCT_PACKAGES += \
+    QtiTelephonyService
