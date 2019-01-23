@@ -79,6 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:vendor/lib/egl/libq3dtools_esx.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/hw/copybit.msm8916.so:vendor/lib/hw/copybit.msm8916.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libApeSwDec.so:vendor/lib/libApeSwDec.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libFlacSwDec.so:vendor/lib/libFlacSwDec.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libMpeg4SwEncoder.so:vendor/lib/libMpeg4SwEncoder.so \
