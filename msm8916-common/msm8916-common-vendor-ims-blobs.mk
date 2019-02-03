@@ -17,8 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:vendor/etc/permissions/qti-vzw-ims-internal.xml \
-    vendor/motorola/msm8916-common/proprietary/vendor/bin/imscmd:vendor/bin/imscmd \
-    vendor/motorola/msm8916-common/proprietary/vendor/bin/imscmservice:vendor/bin/imscmservice \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/imsdatadaemon:vendor/bin/imsdatadaemon \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/imsqmidaemon:vendor/bin/imsqmidaemon \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/ims_rtp_daemon:vendor/bin/ims_rtp_daemon \
@@ -43,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-rtpcore.so:vendor/lib/lib-rtpcore.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-rtpdaemoninterface.so:vendor/lib/lib-rtpdaemoninterface.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-rtpsl.so:vendor/lib/lib-rtpsl.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-siputility.so:vendor/lib/lib-siputility.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libimscamera_jni.so:vendor/lib/libimscamera_jni.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libimsmedia_jni.so:vendor/lib/libimsmedia_jni.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/librcc.so:vendor/lib/librcc.so \
