@@ -62,7 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:vendor/firmware/cpp_firmware_v1_1_6.fw \
     vendor/motorola/msm8916-common/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:vendor/firmware/cpp_firmware_v1_2_0.fw \
     vendor/motorola/msm8916-common/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:vendor/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/egl/eglsubAndroid.so:vendor/lib/egl/eglsubAndroid.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/egl/libEGL_adreno.so:vendor/lib/egl/libEGL_adreno.so \
@@ -215,7 +215,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so:vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:vendor/lib/vendor.qti.hardware.fm@1.0.so \
-    vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:vendor/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:vendor/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:vendor/lib/vendor.qti.hardware.perf@1.0.so \
