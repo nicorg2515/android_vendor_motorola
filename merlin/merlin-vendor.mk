@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/merlin/proprietary/vendor/bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon \
+    vendor/motorola/merlin/proprietary/vendor/bin/msm_irqbalance:vendor/bin/msm_irqbalance \
     vendor/motorola/merlin/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:vendor/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/merlin/proprietary/vendor/etc/acdbdata/General_cal.acdb:vendor/etc/acdbdata/General_cal.acdb \
     vendor/motorola/merlin/proprietary/vendor/etc/acdbdata/Global_cal.acdb:vendor/etc/acdbdata/Global_cal.acdb \
