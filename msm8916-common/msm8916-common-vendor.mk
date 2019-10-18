@@ -23,8 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/adsprpcd:vendor/bin/adsprpcd \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/irsc_util:vendor/bin/irsc_util \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/mm-pp-daemon:vendor/bin/mm-pp-daemon \
-    vendor/motorola/msm8916-common/proprietary/vendor/bin/pm-service:vendor/bin/pm-service \
-    vendor/motorola/msm8916-common/proprietary/vendor/bin/pm-proxy:vendor/bin/pm-proxy \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/qmuxd:vendor/bin/qmuxd \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/qseecomd:vendor/bin/qseecomd \
     vendor/motorola/msm8916-common/proprietary/vendor/bin/radish:vendor/bin/radish \
